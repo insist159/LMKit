@@ -13,6 +13,15 @@
 #import <LMKit/LMKitMacro.h>
 #import <LMKit/LMUtilsMacros.h>
 #import <LMKit/LMKitCategory.h>
+#import <LMKit/LMFile.h>
+#import <LMKit/GCD.h>
+#import <LMKit/OpenUDID.h>
+#import <LMKit/LMTextView.h>
+#import <LMKit/LMAlertView.h>
+#import <LMKit/LMAlertViewConfig.h>
+#import <LMKit/UIView+LMAlert.h>
+#import <LMKit/LMTextField.h>
+#import <LMKit/LMHudHelp.h>
 
 #else
 
@@ -27,4 +36,6 @@
 #import "LMAlertViewConfig.h"
 #import "UIView+LMAlert.h"
 #import "LMTextField.h"
+#import "LMHudHelp.h"
+
 #endif

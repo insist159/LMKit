@@ -46,6 +46,8 @@
 		3B53A43321B783C6000F7D2C /* UINavigationController+LMKitCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53A41121B783C6000F7D2C /* UINavigationController+LMKitCategory.m */; };
 		3B53A43421B783C6000F7D2C /* NSString+LMKitCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53A41221B783C6000F7D2C /* NSString+LMKitCategory.m */; };
 		3B53A43521B783C6000F7D2C /* LMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53A41621B783C6000F7D2C /* LMTextView.m */; };
+		3BD8D3F421B93D0100EF2AF2 /* LMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8D3F221B93D0100EF2AF2 /* LMProgressHUD.m */; };
+		3BD8D3F721B945C500EF2AF2 /* LMHudHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8D3F621B945C500EF2AF2 /* LMHudHelp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +150,10 @@
 		3B53A41321B783C6000F7D2C /* UIView+LMGestureCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LMGestureCallback.h"; sourceTree = "<group>"; };
 		3B53A41521B783C6000F7D2C /* LMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMTextView.h; sourceTree = "<group>"; };
 		3B53A41621B783C6000F7D2C /* LMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMTextView.m; sourceTree = "<group>"; };
+		3BD8D3F221B93D0100EF2AF2 /* LMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMProgressHUD.m; sourceTree = "<group>"; };
+		3BD8D3F321B93D0100EF2AF2 /* LMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMProgressHUD.h; sourceTree = "<group>"; };
+		3BD8D3F521B945C500EF2AF2 /* LMHudHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMHudHelp.h; sourceTree = "<group>"; };
+		3BD8D3F621B945C500EF2AF2 /* LMHudHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMHudHelp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +239,7 @@
 		3B53A3CB21B783C6000F7D2C /* LMKit */ = {
 			isa = PBXGroup;
 			children = (
+				3BD8D3F121B93D0100EF2AF2 /* LMProgressHUD */,
 				3B53A3CC21B783C6000F7D2C /* LMKit.h */,
 				3B53A3CD21B783C6000F7D2C /* LMTextField */,
 				3B53A3D021B783C6000F7D2C /* LMUtils */,
@@ -375,6 +382,17 @@
 			path = LMTextView;
 			sourceTree = "<group>";
 		};
+		3BD8D3F121B93D0100EF2AF2 /* LMProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3BD8D3F321B93D0100EF2AF2 /* LMProgressHUD.h */,
+				3BD8D3F221B93D0100EF2AF2 /* LMProgressHUD.m */,
+				3BD8D3F521B945C500EF2AF2 /* LMHudHelp.h */,
+				3BD8D3F621B945C500EF2AF2 /* LMHudHelp.m */,
+			);
+			path = LMProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -510,6 +528,7 @@
 				3B53A41F21B783C6000F7D2C /* UIView+LMAlert.m in Sources */,
 				3B53A42E21B783C6000F7D2C /* UIColor+LMKitCategory.m in Sources */,
 				3B53A43521B783C6000F7D2C /* LMTextView.m in Sources */,
+				3BD8D3F721B945C500EF2AF2 /* LMHudHelp.m in Sources */,
 				3B53A41921B783C6000F7D2C /* LMFile.m in Sources */,
 				3B53A42021B783C6000F7D2C /* LMAlertDropDownAnimation.m in Sources */,
 				3B53A42521B783C6000F7D2C /* LMAlertController.m in Sources */,
@@ -532,6 +551,7 @@
 				3B53A43121B783C6000F7D2C /* UIView+LMKitCategory.m in Sources */,
 				3B53A39B21B782C9000F7D2C /* AppDelegate.m in Sources */,
 				3B53A41821B783C6000F7D2C /* OpenUDID.m in Sources */,
+				3BD8D3F421B93D0100EF2AF2 /* LMProgressHUD.m in Sources */,
 				3B53A42B21B783C6000F7D2C /* NSObject+LMKitCategory.m in Sources */,
 				3B53A43021B783C6000F7D2C /* UIViewController+LMKitCategory.m in Sources */,
 				3B53A43421B783C6000F7D2C /* NSString+LMKitCategory.m in Sources */,
