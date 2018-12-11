@@ -22,7 +22,7 @@
 #import <LMKit/UIView+LMAlert.h>
 #import <LMKit/LMTextField.h>
 #import <LMKit/LMHudHelp.h>
-
+#import <LMKit/DGActivityIndicatorView.h>"
 #else
 
 #import "LMKitMacro.h"
@@ -37,5 +37,5 @@
 #import "UIView+LMAlert.h"
 #import "LMTextField.h"
 #import "LMHudHelp.h"
-
+#import "DGActivityIndicatorView.h"
 #endif
